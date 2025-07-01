@@ -20,20 +20,22 @@ A web application built with **CodeIgniter 4** and **PHP 8**, featuring modules 
    ```bash
    git clone https://github.com/yourusername/CodeIgniter4-PHP8.git
    cd CodeIgniter4-PHP8
-2. Copy the **.env** file if not present:
+2. Copy the `.env` file if not present:
    ```bash
    cp env .env
-3. Open **.env** and update:
-   - **KEYCLOAK_BASE_URL**
-   - **KEYCLOAK_REALM**
-   - **KEYCLOAK_CLIENT_ID**
-   - **KEYCLOAK_CLIENT_SECRET**
-4. Install dependencies:
+3. Open `.env` and update:
+   
+   - `KEYCLOAK_BASE_URL`
+   - `KEYCLOAK_REALM`
+   - `KEYCLOAK_CLIENT_ID`
+   - `KEYCLOAK_CLIENT_SECRET`
+     
+5. Install dependencies:
    ```bash
    composer install
-5. Start the built-in development server:
+6. Start the built-in development server:
    ```bash
    php spark serve
-6. Visit your app:
+7. Visit your app:
    ```bash
    http://localhost:8080
